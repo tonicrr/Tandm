@@ -6,15 +6,14 @@
 	<!-- Page Wrapper -->
         <div id="page-wrapper">
             <!-- Header -->
-            <!-- Header -->
             <?php include 'html/header/headerFixed.html';?>
             <!-- responsive header -->
             <?php include 'html/header/headerResponsive.html';?>
             <!-- end header -->
             <article id="main">
-		<section class="wrapper style5 padding-bottom">
+		        <section class="wrapper style5 padding-bottom">
                     <div class="inner">
-			<section>
+			            <section>
                             <p style="font-size: 14px;"><span class="image right"><img src="images/paola1.jpg" alt="" /></span>Mi nombre es Paola, soy organizadora de bodas y eventos y soy la creadora de Tand’m. 
                             Me considero una persona creativa, organizada y perfeccionista. <br/><br/>
                             Me apasiona mi trabajo y decidí crear Tand’m después de realizar los estudios de Hostelería. Allí me dí cuenta de que lo que más me gusta es organizar y gestionar eventos. Así que realicé un Master en Comunicación, Relaciones públicas y organización de eventos. 
@@ -23,7 +22,7 @@
                             <br/><br/>Gracias a todos estos detalles os ayudaré a organizar un evento perfecto para cualquier ocasión, cuidando de hasta el más mínimo detalle.</p><br/><br/>					
                             <div class="box alt">
                                 <div class="row uniform 50%">
-                                    <div class="6u"><span class="image fit"><img src="images/paola2.jpg" alt="" /></span></div>
+                                    <div class="6u"><span class="image fit img_height"><img src="images/paola2.jpg" alt="" style="height: 405px;"/></span></div>
                                     <div class="6u"><span class="image fit"><img src="images/paola3.jpg" alt="" /></span></div>
                                 </div>
                             </div>
@@ -33,8 +32,8 @@
             </article>
             <!-- Footer -->
             <?php include 'html/footer/footer.html';?>
-	</div>
-	<!-- Scripts -->
+	    </div>
+	    <!-- Scripts -->
         <?php include 'html/scripts/scripts.html';?>
         <script type="text/javascript">
             $(function() {

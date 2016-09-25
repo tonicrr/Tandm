@@ -20,10 +20,10 @@
                                         Organizar, planificar y coordinar todos los servicios antes y durante la boda, de principio a fin.
                                         <br />
                                         <span class="image fit" style="margin-top: 5%;">
-                                            <a href="organizacion.html"><img src="images/org_completa.jpg" alt="" /></a>
+                                            <a href="organizacion.php"><img src="images/org_completa.jpg" alt="" /></a>
                                         </span>
                                         <span class="image fit">
-                                            <a href="decoracio.html"><img src="images/Decoracio.jpg" alt="" /></a>
+                                            <a href="decoracio.php"><img src="images/Decoracio.jpg" alt="" /></a>
                                         </span>
                                         <h4>Servicio de decoración </h4>
                                         Diseño de la decoración de la boda y montaje de la misma.
@@ -33,10 +33,10 @@
                                         El día de la boda coordinamos todos los servicios y detalles que habéis elegido.
                                         <br />
                                         <span class="image fit" style="margin-top: 5%;">
-                                            <a href="supervisio.html"><img src="images/Supervisio.jpg" alt="" /></a>
+                                            <a href="supervisio.php"><img src="images/Supervisio.jpg" alt="" /></a>
                                         </span>
                                         <span class="image fit">
-                                            <a href="brainstorming.html"><img src="images/Brainstorming.jpg" alt="" /></a>
+                                            <a href="brainstorming.php"><img src="images/Brainstorming.jpg" alt="" /></a>
                                         </span>
                                         <h4>Brainstorming </h4>
                                         Asesoramiento del trabajo de organización que habréis preparado vosotros mismo. Consejos, trucos… 
