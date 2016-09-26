@@ -15,19 +15,17 @@
                     <div class="inner">
                         <section>
                             <p style="font-size: 13px;">
-                                <span class="image right" style="max-width: 45%;"><img src="images/candy_bufet.jpg" alt="" /></span>
+                                <span class="image right" style="max-width: 25%;"><img src="images/deco_page3.jpg" alt="" /></span>
                                 <span><b>SUPERVISIÓN / ORGANIZACIÓN</b></span><br /><br />
-                                Voy a cuidar todos los pequeños detalles, sin olvidar ningún rincón especial; coordinaré los colores, las luces, conseguiré emocionar a los invitados…
-                                Puede parecer complicado cuando no eres un profesional, son muchas cosas a tener en cuenta, pero para eso estoy aquí; para ayudaros con todo el tema de la decoración del espacio que habéis elegido y plasmar vuestra idea y hacerla realidad. 
-                                Cualquier espacio puede ser transformado en un lugar único, adaptándose a vuestros deseos. Podemos personalizarlo al 100% y hacerlo tan especial como vosotros siempre habéis soñado. 
-                                Flores, velas, luces y música. Son algunos de los detalles que marcarán la diferencia. 
-                                Decorar el espacio dónde tendrá lugar la ceremonia, el espacio del banquete con sus mesas con flores, velas y jarrones. Preparando una mesa dulce dónde habrá la repostería, la papelería, el “photocall” y un rincón para firmas, espacios para los más pequeños, detalles en los baños… y un largo etcétera con todo aquello que vosotros deseéis.
-                                Me encargaré personalmente de seleccionar y adquirir todos los detalles y materiales que queráis y sobretodo me voy a ocupar especialmente del montaje en el día de la boda, dejándolo todo perfecto para que no tengáis que preocuparos de nada.
-                            </p>					
+                                Para que no estéis preocupados controlando a los proveedores, supervisándolo todo y podáis disfrutar del día de la boda me encargaré de todo para vosotros, ya que vuestro papel en ese día tan especial es disfrutar de vuestro día y no estar preocupados y pendientes de que todo salga como habíais previsto. Además, al ser una profesional del sector, estoy acostumbrada a resolver rápidamente cualquier imprevisto que pudiese surgir. 
+                                Me pondré en contacto con los proveedores que habéis seleccionado y voy  a realizar un “timing” para coordinarlo todo; la llegada de los invitados, la entrada del novio y la novia, controlar los proveedores, ayudar en lo que sea necesario y gestionar los imprevistos que puedan surgir. 
+                                Para ello, unas semanas antes del gran día, nos reuniremos y me explicaréis vuestra idea, entonces me pondré en contacto con cada servicio que hayáis contratado. 
+                                A partir de ese momento os ayudaré a coordinarlo todo, y el día de la boda no os tendréis que preocupar de nada… Solo de disfrutar y dejarse llevar.
+                            </p>                    
                             <div class="box alt">
                                 <div class="row uniform 50%">
-                                    <div class="6u"><span class="image fit"><img src="images/photocall2.jpg" alt="" /></span></div>
-                                    <div class="6u"><span class="image fit"><img src="images/palla_rustic.jpg" alt="" /></span></div>
+                                    <div class="6u"><span class="image fit"><img src="images/deco_page_3.png" alt="" /></span></div>
+                                    <div class="6u"><span class="image fit"><img src="images/deco_page_5.jpg" alt="" /></span></div>
                                 </div>
                             </div>
                         </section>
