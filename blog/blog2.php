@@ -2,13 +2,13 @@
 <html>
     <head>
         <link rel="Shortcut Icon" type="image/x-icon" href="../images/icon.png" />
-    	<title>Tand'm</title>
-    	<meta charset="utf-8" />
-    	<meta name="viewport" content="width=device-width, initial-scale=1" />
-    	<!--[if lte IE 8]><script src="../assets/js/ie/html5shiv.js"></script><![endif]-->
-    	<link rel="stylesheet" href="../assets/css/main.css" />
-    	<!--[if lte IE 8]><link rel="stylesheet" href="../assets/css/ie8.css" /><![endif]-->
-    	<!--[if lte IE 9]><link rel="stylesheet" href="../assets/css/ie9.css" /><![endif]-->
+        <title>Tand'm</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lte IE 8]><script src="../assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="../assets/css/main.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="../assets/css/ie8.css" /><![endif]-->
+        <!--[if lte IE 9]><link rel="stylesheet" href="../assets/css/ie9.css" /><![endif]-->
         <!-- MENU RESPONSIVE -->
         <link type="text/css" rel="stylesheet" href="../assets/css/demo.css" />
         <link type="text/css" rel="stylesheet" href="../assets/css/jquery.mmenu.all.css" />
@@ -16,8 +16,8 @@
     </head>
     <body class="landing">
         <!-- ADD WEB VISIT INFORMATION -->
-        <?php include '../php/visit_blog_1.php';?>
-	<!-- Page Wrapper -->
+        <?php include '../php/visit_blog_2.php';?>
+    <!-- Page Wrapper -->
         <div id="page-wrapper">
             <!-- Header -->
             <header id="header_fixed" class="alt" style="background: white;">
@@ -47,78 +47,71 @@
                 </div>
             </nav>
             <article id="main">
-		<section class="wrapper style5 padding-bottom padding-top">
+            <section class="wrapper style5 padding-bottom padding-top">
                     <div class="inner">
-			<section>
+                        <section>
                             <header>
-                                <h4>Visita Mireia Vidal Barcelona</h4>
-                                <p>Mireia es una joven diseñadora de 19 años, cercana y simpática, con la sonrisa siempre puesta. Ella y su madre nos hicieron sentir como en casa desde el primer minuto.</p>
+                                <h4>Ser cuentialumna</h4>
+                                <p>¡Además de lo aprendido y de poder conocer por fin a José y Wendy, lo que me llevé de este fin de semana fue un grupo de amigas de lo mejor que hay!! ¡Todas nuestras dudas, nuestros pasos, preguntas y creaciones pasan por ese grupo del whats app que tanto arde cada día y se llena de buenas noticias, apoyo y ayuda incondicional!</p>
                             </header>
                         </section>
                         <section class="padding-top">
                             <div class="box alt">
                                 <div class="row uniform 50%">
-                                    <div class="4u padding-bottom" style="float: none!important; margin: 0 auto;"><span class="image fit"><img src="../images/blog/blog1/foto_1.jpg" alt="" /></span></div>
+                                    <div class="4u padding-bottom" style="float: none!important; margin: 0 auto;"><span class="image fit"><img src="../images/blog/blog2/foto1.jpg" alt="" /></span></div>
                                 </div>
                             </div>
                         </section>
                     </div>
                     <div class="inner">
-			<section>
+                        <section>
                             <header>
-                                <p>Nada más llegar a la tienda nos acogieron con los brazos abiertos y nos presentaron el catalogo para ver qué modelos se adaptarían a lo que yo buscaba: un vestido de invitada versátil y cómodo. Todos eran preciosos, modelos para invitada con cortes y colores distintos, tanto para madrina, invitada o madre de la/del novi@… 
-                                Pasamos al probador y empecé a probarme los vestidos de fiesta elegidos y alguno que me aconsejaron probarme, aunque no estaba segura de que el corte me favorecería. 
-                                El primero que me probé era azul pastel, con mangas de tul y perlas, y un corpiño bordado con pedrería. Color precioso que favorecía mucho. 
-                                El segundo vestido me encanto… corte princesa de color gris perla con falda de tul y mangas con encaje y pedrería. Me sentí como una princesa desde el primer momento. Con una falda de tul increíblemente cómoda y el busto confeccionado con un brocado muy fino, que incluso para una novia puede ser un gran acierto. 
+                                <p>¡Las habitaciones eran geniales, muy cuidadas y con detalles como cuadros pequeñitos de dibujos y de colores personalizados y suaves…cuando ya dejamos de tanta emoción, llegó la hora de tener que ir a cenar, las conversaciones se agolpaban, y cada una tenía que casi pedir voz para hablar… fue inolvidable!
                                 </p>
                             </header>
                         </section>
                         <section class="padding-top">
                             <div class="box alt">
                                 <div class="row uniform 50%">
-                                    <div class="4u padding-bottom" style="float: none!important; margin: 0 auto;"><span class="image fit"><img src="../images/blog/blog1/foto_2.jpg" alt="" /></span></div>
+                                    <div class="4u padding-bottom" style="float: none!important; margin: 0 auto;"><span class="image fit"><img src="../images/blog/blog2/foto2.jpg" alt="" /></span></div>
                                 </div>
                             </div>
                         </section>
                     </div>
                     <div class="inner">
-			<section>
+                        <section>
                             <header>
-                                <p>Su madre quiso hacerme probar un vestido con falda turquesa palabra de honor que hizo que se me quitaron los prejuicios sobre ese corte. 
-                                En la percha no decía mucho pero cuando me lo probé se adaptaba perfectamente a mi cuerpo. ¡La mejor sorpresa fue ver que tenía bolsillos!!  (Sí, tengo una gran debilidad por los vestidos con bolsillos…) Me enamoré del vestido y estuvimos hablando de opciones para cambiar el color de falda, el sitio del bordado del corpiño. “Este bordado está cosido a mano por lo que se puede quitar y poder en otro sitio que te guste más…” me comento Mireia. 
+                                <p>Cuando entramos a la cuentiofi…los ojos de todas nosotras no podían demostrar más emoción y entusiasmo, cada rincón, cada detalle, era acogedor, un espacio genial lleno de muchos detalles, luces, velas, cestos de mimbre, hasta el detalle más minimo como puede ser una botella de agua, estaba personalizada, es como si se hubiera detenido el tiempo, fue algo maravilloso.</br>
+                                Empezamos la formación con muchas paradas técnicas, entre la comida y las paradas para tomar café y poner las ideas claras después de asumir tanta información, y nos permitía cambiar impresiones e incluso ir captando detalles de nuestros formadores José y Wendy. 
                                 </p>
                             </header>
                         </section>
                         <section class="padding-top">
                             <div class="box alt">
                                 <div class="row uniform 50%">
-                                    <div class="4u padding-bottom" style="float: none!important; margin: 0 auto;"><span class="image fit"><img src="../images/blog/blog1/foto_3.jpg" alt="" /></span></div>
+                                    <div class="4u padding-bottom" style="float: none!important; margin: 0 auto;"><span class="image fit"><img src="../images/blog/blog2/foto3.jpg" alt="" /></span></div>
                                 </div>
                             </div>
                         </section>
                     </div>
                     <div class="inner">
-			<section>
+                        <section>
                             <header>
-                                <p>Este era el vestido. Mi sonrisa me delataba y empezamos a hablar de cambios en el diseño, y colores para poder darle versatilidad y usarlo de diferentes modos en diferentes ocasiones. 
-                                Cuando salimos de los probadores una futura novia entraba para probarse vestidos para su gran día y mientras tanto nos enseñaron las diademas, headbands, tiaras, tocados y joyas que tenía en la tienda. 
-                                Nos explicaron que debajo de la tienda tenían el taller donde confeccionaban una serie de vestidos en edición limitada <b>Mireia Vidal VIP</b>. Solo se elaboraban pocas unidades de esos modelos. Los retoques y cambios podían hacerse en la misma tienda. El hecho de que Mireia esté allí en persona, comentándote detalles de los diseños, de su confección y los cambios que se le podrían realizar es un lujo. Fue genial poder hablar con ella de los vestidos y que el asesoramiento fuera tan personalizado y cercano. Las risas estuvieron muy presentes toda la mañana. 
-                                Un taller que aconsejo al 100% por sus diseños, amabilidad, trato cercano y personalizado.
+                                <p>La cabeza me decía ¡¡¡no pierdas detalle de nada!!! Apúntalo todo, las anécdotas, los consejos, experiencias de cada uno, que no se escape nada, fueron dos días muy intensos en los cuales aproveché hasta el último minuto para que no se me escapara nada de información. El tote bag de Soy Wedding planner, la taza de Bodas de Cuento School, los lápices de colores, los bolígrafos, todo.</br>
+                                Os adjunto fotos de ese fin de semana y espero poder volver a contaros como ha sido ese reencuentro de nuevo con mis compañeras de viaje. </br></br>
+                                Hasta pronto.
                                 </p>
                             </header>
                         </section>
                         <section class="padding-top">
                             <div class="box alt">
                                 <div class="row uniform 50%">
-                                    <div class="4u padding-bottom"><span class="image fit"><img src="../images/blog/blog1/foto_4.jpg" alt="" /></span></div>
-                                    <div class="4u padding-bottom"><span class="image fit"><img src="../images/blog/blog1/foto_12.jpg" alt="" /></span></div>
-                                    <div class="4u padding-bottom"><span class="image fit"><img src="../images/blog/blog1/foto_6.jpg" alt="" /></span></div>
-                                    <div class="4u padding-bottom"><span class="image fit"><img src="../images/blog/blog1/foto_7.jpg" alt="" /></span></div>
-                                    <div class="4u padding-bottom"><span class="image fit"><img src="../images/blog/blog1/foto_8.jpg" alt="" /></span></div>
-                                    <div class="4u padding-bottom"><span class="image fit"><img src="../images/blog/blog1/foto_9.jpg" alt="" /></span></div>
-                                    <div class="4u padding-bottom"><span class="image fit"><img src="../images/blog/blog1/foto_10.jpg" alt="" /></span></div>
-                                    <div class="4u padding-bottom"><span class="image fit"><img src="../images/blog/blog1/foto_11.jpg" alt="" /></span></div>
-                                    <div class="4u padding-bottom"><span class="image fit"><img src="../images/blog/blog1/foto_5.jpg" alt="" /></span></div>
+                                    <div class="4u padding-bottom"><span class="image fit"><img src="../images/blog/blog2/foto4.jpg" alt="" /></span></div>
+                                    <div class="4u padding-bottom"><span class="image fit"><img src="../images/blog/blog2/foto7.jpg" alt="" /></span></div>
+                                    <div class="4u padding-bottom"><span class="image fit"><img src="../images/blog/blog2/foto8.jpg" alt="" /></span></div>
+                                    <div class="4u padding-bottom"><span class="image fit"><img src="../images/blog/blog2/foto9.jpg" alt="" /></span></div>
+                                    <div class="4u padding-bottom"><span class="image fit"><img src="../images/blog/blog2/foto10.jpg" alt="" style="height: 177px;" /></span></div>
+                                    <div class="4u padding-bottom"><span class="image fit"><img src="../images/blog/blog2/foto5.jpg" alt="" /></span></div>
                                 </div>
                             </div>
                         </section>
@@ -150,14 +143,14 @@
                     </div>        
                 </div>
             </footer>
-	</div>
-	<!-- Scripts -->
-	<script src="../assets/js/jquery.min.js"></script>
-	<script src="../assets/js/jquery.scrollex.min.js"></script>
-	<script src="../assets/js/jquery.scrolly.min.js"></script>
-	<script src="../assets/js/skel.min.js"></script>
-	<script src="../assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="../assets/js/ie/respond.min.js"></script><![endif]-->
+    </div>
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/jquery.scrolly.min.js"></script>
+    <script src="../assets/js/skel.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="../assets/js/ie/respond.min.js"></script><![endif]-->
         <script src="../assets/js/main.js"></script>
         <script type="text/javascript">
             $(function() {

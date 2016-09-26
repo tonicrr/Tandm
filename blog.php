@@ -11,6 +11,22 @@
             <?php include 'html/header/headerResponsive.html';?>
             <!-- end header -->
             <section id="one" class="wrapper alt style2" style="padding-bottom: 3rem!important;">
+                <!-- blog 2 -->
+                <section class="spotlight" style="margin: 0 auto; max-width: 80%;">
+                    <div class="image">
+                        <a href=""><img src="images/portada_article_2.jpg" alt="" /></a>
+                    </div>
+                    <div class="content">
+                        <p style="font-style: italic; text-align: right;">26 Septiembre 2016</p>
+                        <div style="float: right;"><p id="blog-2-views" style="text-align: right; font-size: 12px; font-style: italic; float: left;"></p><i class="fa fa-eye fa-1x" style="color: black; float: right; padding: 5px;"></i></div>
+                        <h4 style="margin-top: 15px;">Ser cuentialumna</h4>
+                        <p>En noviembre del pasado año estaba de camino a Zaragoza (No a Tarragona Mama…) para el curso de Bodas de cuento. </br></br>¡Un fin de semana fuera de lo normal para aprender y disfrutar de una experiencia genial!</p>
+                        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                        <div class="addthis_native_toolbox" style="float: right; padding-top: 1rem;"></div>
+                        <a id="link-blog1" href="blog/blog2.php"><p class="padding-top" style="color: #fbd294; text-align: center;">Leer mas...</p></a>
+                    </div>
+                </section>
+                <!-- blog 1 -->
                 <section class="spotlight" style="margin: 0 auto; max-width: 80%;">
                     <div class="image">
                         <a href=""><img src="images/portada_article_1.jpg" alt="" /></a>
@@ -28,8 +44,8 @@
             </section>
             <!-- Footer -->
             <?php include 'html/footer/footer.html';?>
-	</div>
-	<!-- Scripts -->
+	    </div>
+	    <!-- Scripts -->
         <?php include 'html/scripts/scripts.html';?>
         <script type="text/javascript">
             $(function() {
@@ -41,6 +57,11 @@
                     var currentview = parseInt(data);
                     var views = currentview + 1;
                     jQuery('#blog-1-views').html(views);
+                });
+                jQuery.get('http://www.pcstandm.com/php/contador_blog2.txt', function(data) {
+                    var currentview = parseInt(data);
+                    var views = currentview + 1;
+                    jQuery('#blog-2-views').html(views);
                 });
             });
         </script>
