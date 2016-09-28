@@ -11,7 +11,7 @@
         $image1         = $image->cache('images/contact_page.jpg');
         $image2         = $image->cache('images/email.jpg');
         $image3         = $image->cache('images/contacto.jpg');
-        //$image4         = $image->cache('images/contact_page2.jpg');
+        $image4         = $image->cache('images/contact_page2_2.png');
     ?>
     <!-- END INCLUDE IMAGE CACHE -->
     <body class="landing">
@@ -29,7 +29,7 @@
                             <div class="box alt">
                                 <div class="row uniform 50%">
                                     <div class="6u"><span class="image fit"><img src="<?php echo $image1; ?>" alt="" /></span></div>
-                                    <div class="6u"><span class="image fit"><img src="images/contact_page2.jpg" alt="" /></span></div>
+                                    <div class="6u"><span class="image fit"><img src="<?php echo $image4; ?>" alt="" /></span></div>
                                 </div>
                             </div>
                         </section>
