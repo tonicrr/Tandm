@@ -5,6 +5,6 @@
 *.log
 *blog1.txt
 *blog2.txt
-*page_4.jpg
-*paola6.jpg
-*article_2.jpg
+*.jpeg
+*.jpg
+*.png

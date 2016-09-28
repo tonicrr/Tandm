@@ -3,6 +3,17 @@
     <!-- START INCLUDE HEAD -->
     <?php include 'html/head/head.html';?>
     <!-- END INCLUDE HEADER -->
+    <!-- INCLUDE IMAGE CACHE -->
+    <?php 
+        require 'php/imageCache/ImageCache.php';
+        $image          = new ImageCache();
+        $image->cached_image_directory = dirname(__FILE__) . '/images/cached';
+        $image1         = $image->cache('images/contact_page.jpg');
+        $image2         = $image->cache('images/email.jpg');
+        $image3         = $image->cache('images/contacto.jpg');
+        //$image4         = $image->cache('images/contact_page2.jpg');
+    ?>
+    <!-- END INCLUDE IMAGE CACHE -->
     <body class="landing">
 	<!-- Page Wrapper -->
         <div id="page-wrapper">
@@ -17,7 +28,7 @@
                         <section>					
                             <div class="box alt">
                                 <div class="row uniform 50%">
-                                    <div class="6u"><span class="image fit"><img src="images/contact_page.jpg" alt="" /></span></div>
+                                    <div class="6u"><span class="image fit"><img src="<?php echo $image1; ?>" alt="" /></span></div>
                                     <div class="6u"><span class="image fit"><img src="images/contact_page2.jpg" alt="" /></span></div>
                                 </div>
                             </div>
@@ -25,12 +36,12 @@
                         <section style="font-size: 14px;">
                             <header>
                                 <br />
-				<h5>Contacta con nosotros</h5>
+				                <h5>Contacta con nosotros</h5>
                             </header>
                             <p>Sea donde sea vuestro evento no dudéis en poneros en contacto conmigo. Trabajo en toda España, e incluso en algunos puntos del extranjero, y quiero ayudaros a realizar vuestro evento perfecto aunque mi oficina esté en la zona de Girona.</p>
                             <p>Si vives fuera de España podemos ponernos en contacto a través de Skype o whats app.</p>
-                            <img src="images/email.jpg" style="width: 50px;" /><p>events@pcstand.com</p>
-                            <img src="images/contacto.jpg" style="width: 50px;" /><p>698652930</p>
+                            <img src="<?php echo $image2; ?>" style="width: 50px;" /><p>events@pcstand.com</p>
+                            <img src="<?php echo $image3; ?>" style="width: 50px;" /><p>698652930</p>
                         </section>
                         <section>
                             <h4>Contacto</h4>
