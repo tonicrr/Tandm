@@ -11,7 +11,7 @@
         $image1         = $image->cache('images/contact_page.jpg');
         $image2         = $image->cache('images/email.jpg');
         $image3         = $image->cache('images/contacto.jpg');
-        $image4         = $image->cache('images/contact_page2_2.png');
+        $image4         = $image->cache('images/contact_page2_2.jpg');
     ?>
     <!-- END INCLUDE IMAGE CACHE -->
     <body class="landing">
