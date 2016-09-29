@@ -31,17 +31,6 @@
                     </div>
                 </section> -->
                 <section class="spotlight" style="margin: 0 auto; max-width: 80%;">
-                    <div class="image">
-                        <a href="sobremi.php">
-                            <img src="images/home4.jpg" alt="" />
-                        </a>
-                    </div>
-                    <div class="content">
-                        <h4>Sobre mí</h4>
-                            <p>Creativa, organizada, perfeccionista… Me gustan los pequeños detalles, las flores, organizar comidas y reuniones con mis amigos. He creado Tand’m para ayudaros a realizar vuestro evento perfecto.</p>
-                    </div>
-                </section>
-                <section class="spotlight" style="margin: 0 auto; max-width: 80%;">
                     <div class="image"><a href="servicios.php"><img src="images/home1.jpg" alt="" /></a></div>
                     <div class="content">
                         <h4>Servicios</h4>
@@ -60,6 +49,17 @@
                                 <h4>Blog</h4>
                                 <p>Aquí encontraréis ideas de inspiración, descripción de los proveedores con los que trabajo y que me encantan o simplemente cosas que me gustan como un diseñador, una idea original para las bodas, unos colores…</p>
                         </div>
+                </section>
+                <section class="spotlight" style="margin: 0 auto; max-width: 80%;">
+                    <div class="image">
+                        <a href="sobremi.php">
+                            <img src="images/home4.jpg" alt="" />
+                        </a>
+                    </div>
+                    <div class="content">
+                        <h4>Sobre mí</h4>
+                            <p>Creativa, organizada, perfeccionista… Me gustan los pequeños detalles, las flores, organizar comidas y reuniones con mis amigos. He creado Tand’m para ayudaros a realizar vuestro evento perfecto.</p>
+                    </div>
                 </section>
                 <section class="spotlight" style="margin: 0 auto; max-width: 80%;">
                     <div class="image"><a href="contact.php"><img src="images/home3.jpg" alt="" /></a></div><div class="content">
