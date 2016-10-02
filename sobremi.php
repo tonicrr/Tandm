@@ -2,6 +2,13 @@
 <html>
     <!-- START INCLUDE HEAD -->
     <?php include 'html/head/head.html';?>
+    <!-- INCLUDE IMAGE CACHE -->
+    <?php 
+        require 'php/imageCache/ImageCache.php';
+        $image          = new ImageCache();
+        $image->cached_image_directory = dirname(__FILE__) . '/images/cached';
+        $image1         = $image->cache('images/paola3.jpg');
+    ?>
     <body class="landing">
     <!-- Page Wrapper -->
         <div id="page-wrapper">
@@ -16,7 +23,7 @@
                         <section>
                             <p style="font-size: 14px;">
                                 <span class="image right">
-                                    <img src="images/paola3.jpg" alt="" />
+                                    <img src="<?php echo $image1; ?>" alt="" />
                                 </span>
                                 Mi nombre es Paola, soy organizadora de bodas y eventos y soy la creadora de Tand’m. 
                                 Me considero una persona creativa, organizada y perfeccionista. <br/><br/>

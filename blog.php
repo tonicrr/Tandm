@@ -2,6 +2,13 @@
 <html>
     <!-- START INCLUDE HEAD -->
     <?php include 'html/head/head.html';?>
+    <!-- INCLUDE IMAGE CACHE -->
+    <?php 
+        require 'php/imageCache/ImageCache.php';
+        $image          = new ImageCache();
+        $image->cached_image_directory = dirname(__FILE__) . '/images/cached';
+        $image1         = $image->cache('images/portada_article_2.jpg');
+    ?>
     <body class="landing">
 	<!-- Page Wrapper -->
         <div id="page-wrapper">
@@ -14,7 +21,7 @@
                 <!-- blog 2 -->
                 <section class="spotlight" style="margin: 0 auto; max-width: 80%;">
                     <div class="image">
-                        <a href=""><img src="images/portada_article_2.jpg" alt="" /></a>
+                        <a href=""><img src="<?php echo $image1; ?>" alt="" /></a>
                     </div>
                     <div class="content">
                         <p style="font-style: italic; text-align: right;">26 Septiembre 2016</p>

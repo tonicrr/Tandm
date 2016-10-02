@@ -2,6 +2,15 @@
 <html>
     <!-- START INCLUDE HEAD -->
     <?php include 'html/head/head.html';?>
+    <!-- INCLUDE IMAGE CACHE -->
+    <?php 
+        require 'php/imageCache/ImageCache.php';
+        $image          = new ImageCache();
+        $image->cached_image_directory = dirname(__FILE__) . '/images/cached';
+        $image1         = $image->cache('images/org_page3.jpg');
+        $image2         = $image->cache('images/org_page2.jpg');
+        $image3         = $image->cache('images/org_page1.jpg');
+    ?>
     <body class="landing">
 	<!-- Page Wrapper -->
         <div id="page-wrapper">
@@ -15,7 +24,9 @@
                     <div class="inner">
                         <section>
                             <p style="font-size: 13px;">
-                                <span class="image right" style="max-width: 25%;"><img src="images/org_page3.jpg" alt="" /></span>
+                                <span class="image right" style="max-width: 25%;">
+                                    <img src="<?php echo $image1; ?>" alt="" />
+                                </span>
                                 <span><b>ORGANIZACIÓN COMPLETA</b></span><br /><br />
                                 Quiero organizaros el evento perfecto al detalle. En el que ambos os sintáis representados y todo sea como siempre habíais soñado. Contando siempre con el apoyo los mejores profesionales del sector para que todo salga según lo planeado.
                                 Este servicio es el pack más completo porqué se adapta a vosotros y a vuestras necesidades. Os garantiza confianza y tranquilidad. 
@@ -26,8 +37,16 @@
                             </p>					
                             <div class="box alt">
                                 <div class="row uniform 50%">
-                                    <div class="6u"><span class="image fit"><img src="images/org_page2.jpg" alt="" /></span></div>
-                                    <div class="6u"><span class="image fit"><img src="images/org_page1.jpg" alt="" /></span></div>
+                                    <div class="6u">
+                                        <span class="image fit">
+                                            <img src="<?php echo $image2; ?>" alt="" />
+                                        </span>
+                                    </div>
+                                    <div class="6u">
+                                        <span class="image fit">
+                                            <img src="<?php echo $image3; ?>" alt="" />
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
                         </section>

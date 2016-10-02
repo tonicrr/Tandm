@@ -2,6 +2,14 @@
 <html>
     <!-- START INCLUDE HEAD -->
     <?php include 'html/head/head.html';?>
+    <!-- INCLUDE IMAGE CACHE -->
+    <?php 
+        require 'php/imageCache/ImageCache.php';
+        $image          = new ImageCache();
+        $image->cached_image_directory = dirname(__FILE__) . '/images/cached';
+        $image2         = $image->cache('images/photocall2.jpg');
+        $image3         = $image->cache('images/palla_rustic.jpg');
+    ?>
     <body class="landing">
 	<!-- Page Wrapper -->
         <div id="page-wrapper">
@@ -15,7 +23,9 @@
                     <div class="inner">
                         <section>
                             <p style="font-size: 13px;">
-                                <span class="image right" style="max-width: 35%;"><img src="images/decoracion_1.jpg" alt="" /></span>
+                                <span class="image right" style="max-width: 35%;">
+                                    <img src="images/decoracion_1.jpg" alt="" />
+                                </span>
                                 <span><b>SERVICIO DE DECORACIÓN</b></span><br /><br />
                                 Voy a cuidar todos los pequeños detalles, sin olvidar ningún rincón especial; coordinaré los colores, las luces, conseguiré emocionar a los invitados…
                                 Puede parecer complicado cuando no eres un profesional, son muchas cosas a tener en cuenta, pero para eso estoy aquí; para ayudaros con todo el tema de la decoración del espacio que habéis elegido y plasmar vuestra idea y hacerla realidad. 
@@ -27,8 +37,16 @@
                             </p>                    
                             <div class="box alt">
                                 <div class="row uniform 50%">
-                                    <div class="6u"><span class="image fit"><img src="images/photocall2.jpg" alt="" /></span></div>
-                                    <div class="6u"><span class="image fit"><img src="images/palla_rustic.jpg" alt="" /></span></div>
+                                    <div class="6u">
+                                        <span class="image fit">
+                                            <img src="<?php echo $image2; ?>" alt="" />
+                                        </span>
+                                    </div>
+                                    <div class="6u">
+                                        <span class="image fit">
+                                            <img src="<?php echo $image3; ?>" alt="" />
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
                         </section>
@@ -37,14 +55,14 @@
             </article>
             <!-- Footer -->
             <?php include 'html/footer/footer.html';?>
-	</div>
-	<!-- Scripts -->
+	    </div>
+	    <!-- Scripts -->
         <?php include 'html/scripts/scripts.html';?>
         <script type="text/javascript">
             $(function() {
-                    jQuery('.header').click(function() {
-                        jQuery('#menu').show();
-                    });
+                jQuery('.header').click(function() {
+                    jQuery('#menu').show();
+                });
             });
         </script>
     </body>
