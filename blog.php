@@ -8,6 +8,7 @@
         $image          = new ImageCache();
         $image->cached_image_directory = dirname(__FILE__) . '/images/cached';
         $image1         = $image->cache('images/portada_article_2.jpg');
+        $image2         = $image->cache('images/DSC_0011.jpg');
     ?>
     <body class="landing">
 	<!-- Page Wrapper -->
@@ -18,6 +19,24 @@
             <?php include 'html/header/headerResponsive.html';?>
             <!-- end header -->
             <section id="one" class="wrapper alt style2" style="padding-bottom: 3rem!important;">
+                <!-- blog 3 -->
+                <section class="spotlight" style="margin: 0 auto; max-width: 80%;">
+                    <div class="image">
+                        <a href=""><img src="<?php echo $image2; ?>" alt="" /></a>
+                    </div>
+                    <div class="content">
+                        <p style="font-style: italic; text-align: right;">9 Octubre 2016</p>
+                        <div style="float: right;">
+                            <p id="blog-3-views" style="text-align: right; font-size: 12px; font-style: italic; float: left;"></p>
+                            <i class="fa fa-eye fa-1x" style="color: black; float: right; padding: 5px;"></i>
+                        </div>
+                        <h4 style="margin-top: 15px;">Mezclado, no agitado</h4>
+                        <p>En este post os hablaré de los distintos tipos de eventos que puedo organizar. No todo va a ser bodas especiales, ni comuniones bonitas o eventos corporativos.</p>
+                        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                        <div class="addthis_native_toolbox" style="float: right; padding-top: 1rem;"></div>
+                        <a id="link-blog1" href="blog/blog3.php"><p class="padding-top" style="color: #fbd294; text-align: center;">Leer mas...</p></a>
+                    </div>
+                </section>
                 <!-- blog 2 -->
                 <section class="spotlight" style="margin: 0 auto; max-width: 80%;">
                     <div class="image">
@@ -69,6 +88,11 @@
                     var currentview = parseInt(data);
                     var views = currentview + 1;
                     jQuery('#blog-2-views').html(views);
+                });
+                jQuery.get('http://www.pcstandm.com/php/contador_blog3.txt', function(data) {
+                    var currentview = parseInt(data);
+                    var views = currentview + 1;
+                    jQuery('#blog-3-views').html(views);
                 });
             });
         </script>
