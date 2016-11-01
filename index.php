@@ -87,7 +87,7 @@
                 <div class="inner">
                     <header>
                         <h3>Tu día perfecto</h3>
-                        <p>Gracias a todos estos detalles os ayudaré a organizar un evento perfecto para cualquier ocasión, cuidando de hasta el más mínimo detalle.</p>
+                        <p>Gracias a todos estos detalles os ayudaremos a organizar un evento perfecto para cualquier ocasión, cuidando de hasta el más mínimo detalle.</p>
                     </header>
                 </div>
             </section>

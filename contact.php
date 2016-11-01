@@ -38,7 +38,7 @@
                                 <br />
 				                <h5>Contacta con nosotros</h5>
                             </header>
-                            <p>Sea donde sea vuestro evento no dudéis en poneros en contacto conmigo. Trabajo en toda España, e incluso en algunos puntos del extranjero, y quiero ayudaros a realizar vuestro evento perfecto aunque mi oficina esté en la zona de Girona.</p>
+                            <p>Sea donde sea vuestro evento no dudéis en poneros en contacto con nosotros. Trabajamos en toda España, e incluso en algunos puntos del extranjero, y queremos ayudaros a realizar vuestro evento perfecto aunque nuestra oficina esté en la zona de Girona.</p>
                             <p>Si vives fuera de España podemos ponernos en contacto a través de Skype o whats app.</p>
                             <img src="<?php echo $image2; ?>" style="width: 50px;" /><p>events@pcstand.com</p>
                             <img src="<?php echo $image3; ?>" style="width: 50px;" /><p>698652930</p>

@@ -28,10 +28,10 @@
                                     <img src="<?php echo $image1; ?>" alt="" />
                                 </span>
                                 <span><b>SUPERVISIÓN / ORGANIZACIÓN</b></span><br /><br />
-                                Para que no estéis preocupados controlando a los proveedores, supervisándolo todo y podáis disfrutar del día de la boda me encargaré de todo para vosotros, ya que vuestro papel en ese día tan especial es disfrutar de vuestro día y no estar preocupados y pendientes de que todo salga como habíais previsto. Además, al ser una profesional del sector, estoy acostumbrada a resolver rápidamente cualquier imprevisto que pudiese surgir. 
-                                Me pondré en contacto con los proveedores que habéis seleccionado y voy  a realizar un “timing” para coordinarlo todo; la llegada de los invitados, la entrada del novio y la novia, controlar los proveedores, ayudar en lo que sea necesario y gestionar los imprevistos que puedan surgir. 
-                                Para ello, unas semanas antes del gran día, nos reuniremos y me explicaréis vuestra idea, entonces me pondré en contacto con cada servicio que hayáis contratado. 
-                                A partir de ese momento os ayudaré a coordinarlo todo, y el día de la boda no os tendréis que preocupar de nada… Solo de disfrutar y dejarse llevar.
+                                Para que no estéis preocupados controlando a los proveedores, supervisándolo todo y podáis disfrutar del día de la boda nos encargaremos de todo para vosotros, ya que vuestro papel en ese día tan especial es disfrutar de vuestro día y no estar preocupados y pendientes de que todo salga como habíais previsto. Además, al ser una profesionales del sector, estamos acostumbrados a resolver rápidamente cualquier imprevisto que pudiese surgir. 
+                                Nos pondremos en contacto con los proveedores que habéis seleccionado y voy  a realizaremos un “timing” para coordinarlo todo; la llegada de los invitados, la entrada del novio y la novia, controlar los proveedores, ayudar en lo que sea necesario y gestionar los imprevistos que puedan surgir. 
+                                Para ello, unas semanas antes del gran día, nos reuniremos y me explicaréis vuestra idea, entonces nos pondremos en contacto con cada servicio que hayáis contratado. 
+                                A partir de ese momento os ayudaremos a coordinarlo todo, y el día de la boda no os tendréis que preocupar de nada… Solo de disfrutar y dejarse llevar.
                             </p>                    
                             <div class="box alt">
                                 <div class="row uniform 50%">

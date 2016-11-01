@@ -29,7 +29,7 @@
                                             <a href="boda.php">
                                                 <img src="<?php echo $image1; ?>" alt="" />
                                             </a>
-                                            <br />Encontrad el tipo de servicio que más se adapte a vuestras necesidades. He elaborado 4 tipos distintos de servicios para que podáis elegir o combinar el que necesitáis.
+                                            <br />Encontrad el tipo de servicio que más se adapte a vuestras necesidades. Hemos elaborado 4 tipos distintos de servicios para que podáis elegir o combinar el que necesitáis.
                                         </span>
                                     </div>
                                     <div class="6u">
