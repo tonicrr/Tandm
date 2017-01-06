@@ -9,6 +9,8 @@
         $image->cached_image_directory = dirname(__FILE__) . '/images/cached';
         $image1         = $image->cache('images/portada_article_2.jpg');
         $image2         = $image->cache('images/DSC_0011.jpg');
+        $image3         = $image->cache('images/blog4_1.jpg');
+        $image4         = $image->cache('images/blog8.jpg');
     ?>
     <body class="landing">
 	<!-- Page Wrapper -->
@@ -19,6 +21,96 @@
             <?php include 'html/header/headerResponsive.html';?>
             <!-- end header -->
             <section id="one" class="wrapper alt style2" style="padding-bottom: 3rem!important;">
+                <!-- blog 8 -->
+                <section class="spotlight" style="margin: 0 auto; max-width: 80%;">
+                    <div class="image">
+                        <a href=""><img src="<?php echo $image4; ?>" alt="" /></a>
+                    </div>
+                    <div class="content">
+                        <p style="font-style: italic; text-align: right;">26 Diciembre 2016</p>
+                        <div style="float: right;">
+                            <p id="blog-8-views" style="text-align: right; font-size: 12px; font-style: italic; float: left;"></p>
+                            <i class="fa fa-eye fa-1x" style="color: black; float: right; padding: 5px;"></i>
+                        </div>
+                        <h4 style="margin-top: 15px;">¿Y sobre los regalos?</h4>
+                        <p>Ahora que ya sabemos cuál es el color Pantone para este año, no puede gustar-me más pensar en los detalles y regalos para los invitados a vuestra boda.</p>
+                        <!-- facebook share -->
+                        <div class="fb-share-button" data-href="http://www.pcstandm.com/blog/blog8.php" data-layout="button_count" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.pcstandm.com%2Fblog%2Fblog8.php&amp;src=sdkpreparse">Compartir</a></div>
+                        <a id="link-blog1" href="blog/blog8.php"><p class="padding-top" style="color: #fbd294; text-align: center;">Leer mas...</p></a>
+                    </div>
+                </section>
+                <!-- blog 7 -->
+                <section class="spotlight" style="margin: 0 auto; max-width: 80%;">
+                    <div class="image">
+                        <a href=""><img src="images/blog7.jpg" alt="" /></a>
+                    </div>
+                    <div class="content">
+                        <p style="font-style: italic; text-align: right;">7 Diciembre 2016</p>
+                        <div style="float: right;">
+                            <p id="blog-7-views" style="text-align: right; font-size: 12px; font-style: italic; float: left;"></p>
+                            <i class="fa fa-eye fa-1x" style="color: black; float: right; padding: 5px;"></i>
+                        </div>
+                        <h4 style="margin-top: 15px;">Jesavi Docarsi: Asesora de imagen.</h4>
+                        <p>Hace unos días nos reunimos con Jessica de Jesavi Docarsi, asesora de imagen, especializada en bodas. Juntas vamos a trabajar en la realización del próximo shooting Tand’m.</p>
+                        <!-- facebook share -->
+                        <div class="fb-share-button" data-href="http://www.pcstandm.com/blog/blog7.php" data-layout="button_count" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.pcstandm.com%2Fblog%2Fblog7.php&amp;src=sdkpreparse">Compartir</a></div>
+                        <a id="link-blog1" href="blog/blog7.php"><p class="padding-top" style="color: #fbd294; text-align: center;">Leer mas...</p></a>
+                    </div>
+                </section>
+                <!-- blog 6 -->
+                <section class="spotlight" style="margin: 0 auto; max-width: 80%;">
+                    <div class="image">
+                        <a href=""><img src="images/blog6.jpg" alt="" /></a>
+                    </div>
+                    <div class="content">
+                        <p style="font-style: italic; text-align: right;">27 Noviembre 2016</p>
+                        <div style="float: right;">
+                            <p id="blog-6-views" style="text-align: right; font-size: 12px; font-style: italic; float: left;"></p>
+                            <i class="fa fa-eye fa-1x" style="color: black; float: right; padding: 5px;"></i>
+                        </div>
+                        <h4 style="margin-top: 15px;">Espacios mágicos…</h4>
+                        <p>Escondida en medio de un paraje de cuento se encuentra La Farinera. Súper espacio en Pont de Molins (cerca de Figueres) que te enamora al cruzar el portal.</p>
+                        <!-- facebook share -->
+                        <div class="fb-share-button" data-href="http://www.pcstandm.com/blog/blog6.php" data-layout="button_count" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.pcstandm.com%2Fblog%2Fblog6.php&amp;src=sdkpreparse">Compartir</a></div>
+                        <a id="link-blog1" href="blog/blog6.php"><p class="padding-top" style="color: #fbd294; text-align: center;">Leer mas...</p></a>
+                    </div>
+                </section>
+                <!-- blog 5 -->
+                <section class="spotlight" style="margin: 0 auto; max-width: 80%;">
+                    <div class="image">
+                        <a href=""><img src="images/Portada.png" alt="" /></a>
+                    </div>
+                    <div class="content">
+                        <p style="font-style: italic; text-align: right;">22 Noviembre 2016</p>
+                        <div style="float: right;">
+                            <p id="blog-5-views" style="text-align: right; font-size: 12px; font-style: italic; float: left;"></p>
+                            <i class="fa fa-eye fa-1x" style="color: black; float: right; padding: 5px;"></i>
+                        </div>
+                        <h4 style="margin-top: 15px;">Mi Boda Rocks Experience</h4>
+                        <p>El pasado 2 de octubre asistimos a la Feria Mi Boda Rocks Experience en el Hotel Melià de Barcelona. Fue un día intenso tanto de trabajo, como de emociones, ya que nos dio para mucho.</p>
+                        <!-- facebook share -->
+                        <div class="fb-share-button" data-href="http://www.pcstandm.com/blog/blog5.php" data-layout="button_count" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.pcstandm.com%2Fblog%2Fblog5.php&amp;src=sdkpreparse">Compartir</a></div>
+                        <a id="link-blog1" href="blog/blog5.php"><p class="padding-top" style="color: #fbd294; text-align: center;">Leer mas...</p></a>
+                    </div>
+                </section>
+                <!-- blog 4 -->
+                <section class="spotlight" style="margin: 0 auto; max-width: 80%;">
+                    <div class="image">
+                        <a href=""><img src="<?php echo $image3; ?>" alt="" /></a>
+                    </div>
+                    <div class="content">
+                        <p style="font-style: italic; text-align: right;">17 Noviembre 2016</p>
+                        <div style="float: right;">
+                            <p id="blog-4-views" style="text-align: right; font-size: 12px; font-style: italic; float: left;"></p>
+                            <i class="fa fa-eye fa-1x" style="color: black; float: right; padding: 5px;"></i>
+                        </div>
+                        <h4 style="margin-top: 15px;">Talleres florales</h4>
+                        <p>Aprender de la mano de Chiara y Serena de la floristería Zelinda Milano es un lujo. Tienen una pequeña floristería monísima en Gracia, Barcelona, y es que podrías quedarte mirando sus flores y estanterías embobada...</p>
+                        <!-- facebook share -->
+                        <div class="fb-share-button" data-href="http://www.pcstandm.com/blog/blog4.php" data-layout="button_count" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.pcstandm.com%2Fblog%2Fblog4.php&amp;src=sdkpreparse">Compartir</a></div>
+                        <a id="link-blog1" href="blog/blog4.php"><p class="padding-top" style="color: #fbd294; text-align: center;">Leer mas...</p></a>
+                    </div>
+                </section>
                 <!-- blog 3 -->
                 <section class="spotlight" style="margin: 0 auto; max-width: 80%;">
                     <div class="image">
@@ -93,6 +185,31 @@
                     var currentview = parseInt(data);
                     var views = currentview + 1;
                     jQuery('#blog-3-views').html(views);
+                });
+                jQuery.get('http://www.pcstandm.com/php/contador_blog4.txt', function(data) {
+                    var currentview = parseInt(data);
+                    var views = currentview + 1;
+                    jQuery('#blog-4-views').html(views);
+                });
+                jQuery.get('http://www.pcstandm.com/php/contador_blog5.txt', function(data) {
+                    var currentview = parseInt(data);
+                    var views = currentview + 1;
+                    jQuery('#blog-5-views').html(views);
+                });
+                jQuery.get('http://www.pcstandm.com/php/contador_blog6.txt', function(data) {
+                    var currentview = parseInt(data);
+                    var views = currentview + 1;
+                    jQuery('#blog-6-views').html(views);
+                });
+                jQuery.get('http://www.pcstandm.com/php/contador_blog7.txt', function(data) {
+                    var currentview = parseInt(data);
+                    var views = currentview + 1;
+                    jQuery('#blog-7-views').html(views);
+                });
+                jQuery.get('http://www.pcstandm.com/php/contador_blog8.txt', function(data) {
+                    var currentview = parseInt(data);
+                    var views = currentview + 1;
+                    jQuery('#blog-8-views').html(views);
                 });
             });
         </script>

@@ -49,7 +49,7 @@
                                         <a href="brainstorming.php"><img src="<?php echo $image4; ?>" alt="" /></a>
                                     </span>
                                     <h4>Brainstorming </h4>
-                                    Asesoramiento del trabajo de organización que habréis preparado vosotros mismo. Consejos, trucos… 
+                                    Asesoramiento del trabajo de organización que habréis preparado vosotros mismos. Consejos, trucos… 
                                 </div>
                             </div>
                         </div>

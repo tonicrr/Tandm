@@ -93,8 +93,8 @@
             </section>
             <!-- Footer -->
             <?php include 'html/footer/footer.html';?>
-    </div>
-    <!-- Scripts -->
+        </div>
+        <!-- Scripts -->
         <?php include 'html/scripts/scripts.html';?>
         <script type="text/javascript">
             $(function() {
